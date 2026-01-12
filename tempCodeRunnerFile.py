@@ -1,3 +1,5 @@
-a = "1sneha"
-b="2rawat"
-print(int(a)+int(b))
+i=0
+while(i<5):
+    print(i)
+    i=i+1
+print("done with while loop")

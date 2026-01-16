@@ -62,4 +62,4 @@ def average(*numbers):
 #average(5,6)
 #return sum/len(numbers)
 c =average(5,6,9,8)
-print(c)
+print(c) 

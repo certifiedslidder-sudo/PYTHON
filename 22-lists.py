@@ -1,4 +1,4 @@
-"""marks =[3,5,6, "sneha", True ]  #list is to store multiple data under a single name
+marks =[3,5,6, "sneha", True ]  #list is to store multiple data under a single name
 print(type(marks))        #lists are mutable
 print(marks)           #enclosed in[], elements seprated by','
 print(marks[0])
@@ -52,7 +52,7 @@ marks=[3,5,6,"sneha",True]
 if "sneha" in marks:
     print("yes")
 else:
-    print("no")"""    
+    print("no")   
 
 marks=[3,5,6,"sneha",True]
 print(marks)
@@ -61,10 +61,10 @@ print(marks[1:])  #full list
 print(marks[1:4])  #one less than 4
 print(marks[1:-1])  #from one to (5-1)=4 : 1 to 3
 
-"""         #CONCEPT OF JUMP INDEX
+        #CONCEPT OF JUMP INDEX
 marks=[3,5,6,"sneha",True, 6,7,2,32,345,23]
 print(marks[1:9])
-print(marks[1:9:2]) #first one to four slicing, then jump by 2"""
+print(marks[1:9:2]) #first one to four slicing, then jump by 2
 
 animals = ["cat", "dog", "bat","mouse","pig","horse","donkey","goat", "cow"]
 print(animals[4:])
@@ -72,3 +72,19 @@ print(animals[-4:])
 print(animals[:6])
 print(animals[:-3])
 print(animals[1:8:3])
+
+        #LIST COMPREHENSION
+lst = [i*i for i in range(10)]  
+print(lst)      
+
+lst = [i*i for i in range(10) if i%2==0]  
+print(lst)    
+
+names = ["sneha", "suhana", "aarav","bruno"]
+namesWith_a = [item for item in names if 'a' in item]
+print(namesWith_a)
+
+names = ["leo", "tom", "aarav","bruno"]
+namesWith_a = [item for item in names if (len(item)>4)]
+print(namesWith_a)
+

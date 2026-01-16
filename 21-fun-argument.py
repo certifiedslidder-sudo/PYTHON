@@ -58,7 +58,21 @@ def average(*numbers):
     for i in numbers:
         sum = sum + i
     #print("average is:", sum/len(numbers))  
-    return sum/len(numbers)  
+    return sum/len(numbers)         
+#average(5,6)
+#return sum/len(numbers)
+c =average(5,6,9,8)
+print(c) 
+
+
+def average(*numbers):
+    #print(type(numbers))
+    sum = 0
+    for i in numbers:
+        sum = sum + i
+    #print("average is:", sum/len(numbers))  
+    return 6                            #the return given as first is value and all other after the first return is not considered
+    return sum/len(numbers)         
 #average(5,6)
 #return sum/len(numbers)
 c =average(5,6,9,8)

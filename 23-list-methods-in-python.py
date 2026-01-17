@@ -1,3 +1,23 @@
+l = ["violet", "blue", "green", "orange", "grey", "red", "indigo"]
+print(l)
+l.sort()
+print(l)
+
+
+
+l = ["violet", "blue", "green", "orange", "grey", "red", "indigo"]
+print(l)
+l.reverse()
+print(l)
+
+
+l = [11,45,1,2,4,6]
+print(l)
+l.reverse()
+print(l)
+
+
+
 l = [11,45,1,2,4,6]
 print(l)
 l.append(7)

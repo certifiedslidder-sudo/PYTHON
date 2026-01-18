@@ -1,4 +1,4 @@
-"""#tuples are immutable..
+#tuples are immutable..
 
 countries=("spain", "italy","india","england","germany")
 temp = list(countries)
@@ -14,7 +14,7 @@ print(countries)
 countries=("pakistan","afganistan","bangladesh","srilanka")
 countries2=("vietnam","india","china")
 southEastAsia= countries + countries2
-print(southEastAsia)"""
+print(southEastAsia)
 
          #TUPLE METHODS
          
@@ -31,6 +31,15 @@ res = tuple1.index(3) #return:5
 print('first ocurance  of 3 in tuple1 is:', res)         
  
        
-tuple1 =[0,1,9,6,2,3,3,2]         
-res = tuple1.index(3,3,7) #return:5
+tuple1 =[0,1,9,6,2,31,3,2]         
+res = tuple1.index(3,3,7) #return:6  (element,start index, end index)
 print('first ocurance  of 3 in tuple1 is:', res)    
+
+tuple1 =[0,1,9,6,2,31,3,2]         
+res = tuple1.index(322,3,7) #error
+print('first ocurance  of 3 in tuple1 is:', res)
+
+
+tuple1 =[0,1,2,2,1,2]         
+res = len(tuple1)   #gives length of tuple
+print('length tuple1 is:', res)

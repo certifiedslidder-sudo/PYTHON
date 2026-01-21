@@ -1,5 +1,3 @@
-def square(n):
-    '''takes in a number n, returns the square of n'''
-    print(n**2)
-square(5)
-print(square.__doc__)
+cities={"tokyo","madrid","berlin","delhi"}
+del cities    #deletes an entire set;throws error
+print(cities)

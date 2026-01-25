@@ -86,4 +86,13 @@ for i in range(0, len(questions)):
         print("wrong answer!")  
         break  
     
-print(f"your take home money is {money}")    
+print(f"your take home money is {money}")  
+
+
+
+
+"""create a program capable of displaying questions to the user like kbc.
+
+use list data type to store the questions and their correct answers.
+
+display the final amount the person is taking home after playing the game."""  

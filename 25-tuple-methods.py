@@ -43,3 +43,9 @@ print('first ocurance  of 3 in tuple1 is:', res)
 tuple1 =[0,1,2,2,1,2]         
 res = len(tuple1)   #gives length of tuple
 print('length tuple1 is:', res)
+
+
+#TUPLE WITH ONE ITEM
+b=(10,)
+print(type(b))
+'''while creating a tuple with single element(b),its must to add a comma after 10 other wise b is treated as int type'''

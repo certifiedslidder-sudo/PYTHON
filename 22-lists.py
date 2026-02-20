@@ -1,7 +1,7 @@
 marks =[3,5,6, "sneha", True ]  #list is to store multiple data under a single name
 print(type(marks))        #lists are mutable
 print(marks)           #enclosed in[], elements seprated by','
-print(marks[0])
+print(marks[0])         #list can contain duplicate entries unlike sets.
 print(marks[1])
 print(marks[2])
 print(marks[3])

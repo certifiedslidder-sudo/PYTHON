@@ -1,4 +1,4 @@
-marks =[3,5,6, "sneha", True ]  #list is to store multiple data under a single name
+"""marks =[3,5,6, "sneha", True ]  #list is to store multiple data under a single name
 print(type(marks))        #lists are mutable
 print(marks)           #enclosed in[], elements seprated by','
 print(marks[0])         #list can contain duplicate entries unlike sets.
@@ -87,4 +87,11 @@ print(namesWith_a)
 names = ["leo", "tom", "aarav","bruno"]
 namesWith_a = [item for item in names if (len(item)>4)]
 print(namesWith_a)
+"""
+s={12,24,36,48,60}
+print(s)
+s.remove(789)         #will give error
+print(s)
+s.discard(789)          #no error will print as it is
+print(s)
 

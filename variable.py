@@ -1,13 +1,15 @@
 a = 13                #int
 print(a)
-a1=9
-print( a+a1)     
-print("the type of a is", type(a))     
+a1=9.67895433
+b=a+a1
+print(b)     
+print("the type of b is", type(b))   #tell about data type  
 
-
+#variable name can be started just by using alphabet or understore,,  no number, no characters like@,$,<,%....
+#no wide space is allowed in variable name.
 b = True
 c = "harry"             
-d = None
+d = None  #sometimes we need to mark that a variable has nothing ; we use none to mark nothing
 e=1.22
 f = complex(8,2)
 print("the type of d is", type(d))

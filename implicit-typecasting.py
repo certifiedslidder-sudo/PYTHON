@@ -1,4 +1,4 @@
-
+ 
 #python automatically converts c to int
 c = 2
 print(type(c))
@@ -10,3 +10,8 @@ f = c+d
 print(f)   #i will get answer in float
 #python converts smaller data type t0 higher to prevent data loss
 print(type(f))
+
+a="31.3"
+b=float(a)
+t=type(b)
+print(t)

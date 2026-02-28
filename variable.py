@@ -26,3 +26,5 @@ print(tuple1)
 
 dict1 = {"name":"sakshi","age":23,"canVote":True}
 print(dict1)
+
+

@@ -5,6 +5,13 @@
                               3-FUNCTIONAL PROGRAMMING""" 
 
 #OOPS maps our variable with real life entities.
+
+"""key feature of oops-ENCAPSULATION,INHERITANCE,POLYMORPHISM"""
+'''object'''#-each obj is a specific unstance of class.ex-bird class that has sparrow , crow,peacock as object..
+"""INSTANTATION""" # = multiple obj. created from class.
+#=describes form(properties) and functionality(methods) of an object.object is specific; class is generic
+
+
 def hello():
     print("hello")
     
@@ -29,8 +36,3 @@ ad3=1000
 # shubh   -->shubh ki info wala form -->object[entity]
 #shubh.changeName("shubhi")
 
-"""key feature of oops-ENCAPSULATION,INHERITANCE,POLYMORPHISM"""
-'''object'''#-each obj is a specific unstance of class.ex-bird class that has sparrow , crow,peacock as object..
-"""INSTANTATION""" # = multiple obj. created from class.
-
-'''CLASS'''#=describes form(properties) and functionality(methods) of an object.object is specific; class is generic

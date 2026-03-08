@@ -1,16 +1,16 @@
 class Employee:
     a=1
-    @classmethod
+    @classmethod 
     def show(cls):
         print(f"the class attribute of a is {cls.a}")
         
     @property
-    def name(self):
+    def name(self):   
         return f"{self.fname} {self.lname}"  
     
     @name.setter
-    def name (self,value):
-        self.fname = value.split(" ")[0]
+    def name (self,value):         
+        self.fname = value.split(" ")[0]   # .split (" ") yha space ho wha tod dega aur ek list bana dega.
         self.lname = value.split(" ")[1]
         
 e= Employee()

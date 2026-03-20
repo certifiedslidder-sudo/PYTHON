@@ -72,9 +72,9 @@ print(cities)
 
 #THE DIFFERENCE BTW REMOVE() AND DISCARD() IS, THAT IF  WE TRY TO REMOVE() AN ITEM WHICH IS NOT PRESENT IN THE SET,  IT RAISES  AN ERROR WHEREAS DISCARD() DOES NOT.
 
-cities={"tokyo","madrid","berlin","delhi"}
-cities.remove("noida")
-print(cities)
+# cities={"tokyo","madrid","berlin","delhi"}
+# cities.remove("noida")
+# print(cities)
 
 cities={"tokyo","madrid","berlin","delhi"}
 cities.discard("noida")
@@ -85,15 +85,15 @@ item= cities.pop()
 print(cities) #cant predict bcoz unordered set
 print(item)   #cant predict
  
-cities={"tokyo","madrid","berlin","delhi"}
-del cities    #deletes an entire set;throws error
-print(cities)
+# cities={"tokyo","madrid","berlin","delhi"}
+# del cities    #deletes an entire set;throws error
+# print(cities)
 
 
    #WHAT IF WE DONT WANT TO DELETE THE ENTIRE SET, WE JUST WANT TO DELETE ALL ITEMS WITHIN THE SET
-cities={"tokyo","madrid","berlin","delhi"}
-cities.clear()    #deletes all items within set
-print(cities)    #returns: set()
+#cities={"tokyo","madrid","berlin","delhi"}
+#cities.clear()    #deletes all items within set
+#print(cities)    #returns: set()
 
 info = { "carla", 19,False,5.9}
 if "carla" in info:

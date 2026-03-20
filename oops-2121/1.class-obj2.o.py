@@ -1,5 +1,11 @@
+'''
+name-->> class-->> employee
+adjective-->> attributes-->> name,age,salary
+verbs-->> methods-->> getsalary(),increment()'''
+
+
 class Employee:
-    language="py"   #this nis a class attribute
+    language="py"   #this is a class attribute
     salary=1200000
 harry=Employee()
 harry.name="harry"  #this is an object/instance attribute

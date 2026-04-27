@@ -2,11 +2,12 @@
 
 
 class Programmer:
-    company="Microsoft"
-    def __init__(self,name,salary,pin):
+    company="Microsoft" #class attribute: it is shared by all the objects of the class. It is not unique for each object.
+    def __init__(self,name,salary,pin): #constructor
         self.name= name
         self.salary=salary
         self.pin=pin
+     
         
 h=Programmer("harry",12000,609)        
 print(h.name, h.salary, h.pin, h.company)

@@ -3,8 +3,8 @@
 class Demo:
     a=4
 o=Demo()
-print(o.a)  #prints class attribute becoz class instance atteribute is not present.
-o.a=1   #instance attribute is set now
+print(o.a)  #prints class attribute bcoz instance atteribute is not present.
+o.a=0   #instance attribute is set now
 print(o.a)   #prints instance  attribute becoz  instance atteribute is set.
 
 print(Demo.a)  #prints class attribute 

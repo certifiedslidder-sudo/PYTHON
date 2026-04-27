@@ -1,20 +1,20 @@
 class Employee:
-    language="py"   
+    language="py"    
     salary=1200000
+    greeting="have a nice day"
+    day="sunday"
     
-    def getnInfo(self):   #self is imp...
+    def getInfo(self):   #self is imp...
         print(f"the language is {self.language}. the salary is {self.salary}")
         
     def greet(self):
-        print("good morning cuties")
-        
-harry=Employee()
-#harry.language = "java script"
-#harr=Employee()
-#harr.language = "java"
-#harr.getnInfo()
-harry.greet()
-harry.getnInfo()
-
-#Employee.getnInfo(harry)
-#Employee.getnInfo()
+        print("good morning guyz") 
+        print(f"the greeting of the day is {self.greeting} and today is {self.day}")   
+       
+harry = Employee()
+harry.language = "javascript" 
+harry.greeting= "good evening"
+harry.day="saturday"
+harry.getInfo()
+harry.greet()    
+Employee.getInfo(harry)       

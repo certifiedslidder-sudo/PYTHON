@@ -1,7 +1,7 @@
 #Write a class “Calculator” capable of finding square, cube and square root of a number.
 
 class Calculator:
-    def __init__(self,n):
+    def __init__(self,n): #constructor
         self.n=n
         
     def square(self):

@@ -6,7 +6,7 @@ class Manager(Programmer):
     c=3
     
 o=Employee()  
-print(o.a)  
+print(o.a)  #prints the attribute a
 #print(o.b) AttributeError: 'Employee' object has no attribute 'b'
 
 o=Programmer()

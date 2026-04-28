@@ -8,12 +8,12 @@ class Programmer(Employee):
     b=2
 class Manager(Programmer):
     def __init__(self):
-        super().__init__()
+        super().__init__()  #parent contructor bhi run hoga
         print("constructor of Manager")
     c=3
     
-# o=Employee()  
-# print(o.a)  
+#o=Employee()  
+#print(o.a)  
 #print(o.b) AttributeError: 'Employee' object has no attribute 'b'
 
 # o=Programmer()

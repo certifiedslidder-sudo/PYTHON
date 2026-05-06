@@ -1,3 +1,4 @@
+#introduced from python 3.10
 def http_status(status):
     match status:
         case 200:
